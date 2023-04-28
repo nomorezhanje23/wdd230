@@ -1,5 +1,4 @@
 body {
-    background-color: blueviolet;
     margin: 0;
     padding: 0;
     display: flex;
@@ -22,7 +21,7 @@ footer {
     text-align: center;
    margin: 15px 50px 15px 15px;
    font-family: 'Barlow', sans-serif;
-    background-color: lightyellow;
+    background-color: blueviolet;
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -51,7 +50,7 @@ ul {
     margin-left: 25px;
     font-family: 'EB Garamond', serif;
     list-style-type: none;
-    color: aliceblue;
+    color: black;
 }
 
 ul a {
