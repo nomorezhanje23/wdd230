@@ -35,6 +35,7 @@ h1 {
     font-size: 1.5rem;
     margin: 0.15rem ;
     text-align: center;
+    padding: 0 10px;
   }
 
 h2 {
@@ -59,4 +60,6 @@ ul a {
 
 footer {
     padding: 10px;
+    justify-content: center;
+
 }
