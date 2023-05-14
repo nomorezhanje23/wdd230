@@ -1,1 +1,63 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Home page for Cape Town weather chamber of commerce project"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montez&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kalam&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../lesson04/styles/normalize.css" />
+    <link rel="stylesheet" href="../lesson04/styles/small.css" />
+    <link rel="stylesheet" href="../lesson04/styles/medium.css" />
+    <link rel="stylesheet" href="../lesson04/styles/large.css" />
+    <script defer src="../lesson04/scripts/dates.js"></script>
+    <title>Cape Town Home Page</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="../lesson04/images/cpt-logo.jpg" alt="Site Logo" />
+      <section>
+        <h1>Cape Town the Best Destination</h1>
+        <q class="motto"
+          >Cape Town the Best Destination, come and live the experience!</q
+        >
+      </section>
+    </header>
+    <nav>
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="menu" class="primaryNav">
+        <li><a href="../lesson04/capetown-index.html">Home</a></li>
+        <li class="active"><a href="../lesson04/capetown-index.html">Cape Town</a></li>
+        <li><a href="#">Historic sites</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Weather Check</a></li>
+        <!-- <li><a href="#">News</a></li> -->
+      </ul>
+    </nav>
+    <main>
+      <h2>Cape Town</h2>
+      <div class="contentbox hero">Weather Summary</div>
+      <div class="contentbox forecast">5 Day Forecast</div>
+      <div class="contentbox">Activities</div>
+      <div class="contentbox">News</div>
+      <div class="contentbox">Contact Information</div>
+    </main>
+    <footer id="myfooter"></footer>
+    <script src="../lesson04/scripts/menu.js"></script>
+  </body>
+</html>
