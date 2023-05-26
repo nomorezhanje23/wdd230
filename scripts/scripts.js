@@ -1,6 +1,6 @@
 const today = new Date();
 const year = today.getFullYear();
-const msg = `&copy;  ${year}  .:| Nomore T. Zhanje |:. Cape Town  <br/>
+const msg = `&copy;  ${year}  .:| Nomore T. Zhanje |:. <br/>
 <b> last modified: </b>${document.lastModified}`;
 
 const el = document.getElementById("myfooter");
