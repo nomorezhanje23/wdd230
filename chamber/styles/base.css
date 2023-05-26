@@ -67,7 +67,7 @@ button {
     background-color:#003E1F;
     color:#00F57A;
     font-size: 1rem;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'EB Garamond', serif;
 }
 nav {
 	background-color:#003E1F;
@@ -83,7 +83,7 @@ nav button {
     background-color:#003E1F;
     color:#00F57A;
     border: none;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'EB Garamond', serif;
 }
 nav ul.primaryNav {
     display:none;
@@ -96,7 +96,7 @@ nav ul li a {
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'EB Garamond', serif;
     display:block;
 }
 nav a:link, nav a:visited {
