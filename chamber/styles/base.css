@@ -3,6 +3,23 @@ main {
     padding: 0.5rem;
     background-color: #C3CAD0;
 }
+
+body {
+	height: 100vh;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 1em;
+	font-family: 'EB Garamond', serif;
+	color: navy;
+}
+aside {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem 1rem;
+	background-color: #FFCF3D;
+}
 header {
     text-align: center;
     background-color:#153F65;
