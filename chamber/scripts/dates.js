@@ -27,3 +27,18 @@ const msg = `&copy;  ${year}  .:| Cape Town Chambers .:|:. Nomore T. Zhanje |:. 
 const el = document.getElementById("myfooter");
 el.innerHTML = msg;
 
+function newDate(){
+    return new Date();
+}
+
+const jour = newDate().getDay();
+
+console.log(jour);
+
+document.addEventListener("DOMContentLoaded", function(){
+    if (jour === 1 || jour === 2) {
+        const element = document.getElementById('banner');
+        element.style.display = 'block';
+    }
+})
+
