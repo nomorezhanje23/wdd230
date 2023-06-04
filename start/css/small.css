@@ -57,17 +57,49 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 10rem;
+
+}
+
+.item{
+    margin: 16px 12px;
+    
 }
 
 main figure.myphoto{
     width:50%;
     /*border: 1px red dashed;*/
     float: right;
+}
+    main figure.myphoto img{ width:100%}
+    main figure.myphoto figcaption{ text-align: center; font-size: .75rem;}
+    
+
+main figure.myphoto1{
+    width:50%;
+    /*border: 1px red dashed;*/
+    float: left;
     
 }
+main figure.myphoto1 img{ width:100%}
+main figure.myphoto1 figcaption{ text-align: center; font-size: .75rem;}
 
-main figure.myphoto img{ width:100%}
-main figure.myphoto figcaption{ text-align: center; font-size: .75rem;}
+main figure.myphoto2{
+    width:50%;
+    /*border: 1px red dashed;*/
+    float: right;
+    
+}
+main figure.myphoto2 img{ width:100%}
+main figure.myphoto2 figcaption{ text-align: center; font-size: .75rem;}
+
+main figure.myphoto3{
+    width:50%;
+    /*border: 1px red dashed;*/
+    float: left;
+    
+}
+main figure.myphoto3 img{ width:100%}
+main figure.myphoto3 figcaption{ text-align: center; font-size: .75rem;}
 
 /*----------- FOOTER --------------*/
 footer {
