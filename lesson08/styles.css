@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&amp;family=Montez&amp;display=swap');
+
+
+:root {
+	--back: #000000;
+    --back2: #333333;
+    --foredark: purple;
+	--forelight: #ffffff;
+	--border: white;
+	--borderlight: #d7d7d7;
+	--shadow: yellow;
+	--zebra: #eeeeee;
+}
+
+body {
+	font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    padding: 4em;
+    font-size: 20px;
+
+}
+
+table {
+
+    text-align: center;
+	border-collapse: collapse;
+    margin: 8px;
+    margin-bottom: 50px;
+
+}
+
+th {
+	background-color: var(--back2);
+	font-size: larger;
+    border: 1px solid var(--back2);
+
+}
+tr:first-child th, .highlight {
+	background-color: var(--back);
+	color: var(--forelight);
+    padding: 20px;
+    border: none;
+}
+
+
+
+
+tr:first-child th, th {
+
+	color: var(--forelight);
+}
+tr th{
+    padding: 20px;
+}
+
+
+
+
+th, td {
+	padding: 3px 15px;
+
+}
+
+tbody tr:nth-child(even){
+	background-color: var(--zebra);
+
+}
+
+.checkmark{
+    color: green;
+    font-size: 22px;
+}
+
+.xmark{
+    color:red;
+    font-size: 30px;
+}
+
+.checkmark, .xmark{
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+      color: black;
+      font-size: 20px;
+      
+  }
+
+  tbody tr, td{
+
+	border: 1px solid var(--borderlight);
+}
+
+footer{
+    text-align:justify;  
+font-size: 20px;
+}
