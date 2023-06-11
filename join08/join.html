@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join page for Cape Town Chamber of Commerce project with responsive features">
+    <link rel="shortcut icon" href="portalicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&amp;family=Montez&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../join08/styles/normalize.css">
+    <link rel="stylesheet" href="../join08/styles/small.css">
+    <link rel="stylesheet" href="../join08/styles/medium.css">
+    <link rel="stylesheet" href="../join08/styles/large.css">
+    <script defer src="../join08/scripts/dates.js"></script>
+    <title>Join Page</title>
+  </head>
+  <body>
+     <header>
+      <img class="logo" src="../lesson06/images/chamber-logo.webp" alt="Site Logo">
+      <section>
+        <h1>Cape Town the Best Destination</h1>
+        <q class="motto"
+          >Cape Town the Best Destination, come and live the experience!</q>
+          <!--<time></time> -->
+          <aside></aside>   
+      </section>
+    </header>
+  <p id="banner">&#129309; Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    <nav>
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="menu" class="primaryNav">
+        <li><a href="../index.html">Home</a></li>
+        <li ><a href="../lesson06/index.html">Cape Town</a></li>
+        <li><a href="../discover07/discover.html">Discover</a></li>
+        <li class="active"><a href="#">Join us</a></li>
+        <li><a href="#">Directory</a></li>
+      </ul>
+    </nav>
+  <main>
+    <section class="form">
+        <h2>Join Cape Town Chamber</h2>
+        <form method="get" action="thankyou.html">
+            <div>
+                <fieldset>    
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Business Name* <input type="text" name="bname" required></label>
+                    <label class="top">Business Position Title <input type="text" name="position" pattern="[a-zA-Z\s-]{7,}" ></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone Number* <input type="tel" name="phone" placeholder="(000)-000-000" required></label>
+                </fieldset>
+           
+                <fieldset>
+                    <legend>Membership Levels</legend>
+                    <label class="side"><input type="radio" name="membership" value="Gold"> Gold Membership ($750)</label>
+                    <label class="side"><input type="radio" name="membership" value="Silver"> Silver Membership ($450)</label>
+                    <label class="side"><input type="radio" name="membership" value="Bronze"> Bronze Membership ($250)</label>
+                    <label class="side"><input type="radio" name="membership" value="Non-Profit"> Non-Profit (No fee)</label>
+                    
+                    
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Description</legend>
+                    <textarea name="description" ></textarea>
+                </fieldset>
+            </div>
+            <input type="submit" value="Submit Application" class="submitBtn">  
+
+        </form>    
+    </section>
+</main>
+  
+  <footer id="myfooter">
+</footer>
+<script src="../join08/scripts/menu.js"></script>
+  </body>
+</html>
+
