@@ -9,14 +9,17 @@ main {
 }
 #banner {
     display: none;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 700;
+    color:#FFCF3D;
+    background-color:#153F65;
     padding: 10px;
     font-size: 16px;
-    background-color:#153F65;
-    color:#FFCF3D;
     font-family: 'EB Garamond', serif;
-    border: #FFCF3D;
+    border:#FFCF3D;
+
 }
     aside {
         margin: 0.5rem;

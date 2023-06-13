@@ -1,55 +1,19 @@
-main {
-    margin: 0.5em;
-    padding: 0.5rem;
-    background-color:#C3CAD0;
+img[data-src] {
+    filter: blur(1em);
 }
-#banner {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    font-size: 16px;
-    background-color:#153F65;
-    color:#FFCF3D;
-    font-family: 'EB Garamond', serif;
-    border: #FFCF3D;
+img {
+    filter: blur(0em);
+    transition: filter 1.5s;
+    display: block;
+    margin: auto    
 }
-    aside {
-        margin: 0.5rem;
-        border: 1px solid #bbb;
-        padding: 0.75rem 1rem;
-        background-color: #FFCF3D;
-    }
-header {
-    text-align: center;
-    background-color:#153F65;
-    font-family: 'Barlow', sans-serif;
-    max-width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: flex;
-    margin-top: 4%;
-}
-header img {
-    width: 80px;
-    height: auto;
-    padding: 0.5rem;
-    margin: 0;
-}
-img {            
-	max-width: 65%;
-    height: auto;
-    display: flex;
-    
 
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    line-height: 1.1em;
 }
-.capetownmap{
-    max-width: 33%;
-    padding-left: 50px;
 
-    
-
-}
 h1 {
     font-size: 2rem;
     margin: auto;
@@ -82,13 +46,7 @@ h4 {
 h5 {
     font-size: 1rem;
 }
-.motto {
-    font-size: 10pt;
-    color:#FFCF3D;
-    font-family: 'Barlow', sans-serif;
-    text-align:center;
-    /*font-style: italic;*/
-}
+
 p {
     color:#FFCF3D;
     font-size: 1rem;
@@ -153,7 +111,7 @@ nav ul {
 	padding: 0;
 	overflow: hidden;
 }
-/*.hero {
+.hero {
 	margin: 20px;
     width: auto;
     height: auto;
@@ -165,80 +123,6 @@ nav ul {
     margin: 25px auto;
    
 }
-.weathersummary {
-	display: grid;
-	position: absolute;
-    text-align: center;
-    top: 20px;
-    left: 10px;
-    margin-right: 10px;
-    padding: 1rem;
-    background: radial-gradient(#153F65,#C3CAD0);
-    border: 2px solid black;
-    box-shadow: 0 0 30px rgba(128, 128, 128, 0.582);
-    opacity: .9;
-}
-.weathersummary h2{
-	font-size: 20px;
-    margin-right: 10px;
-    padding: 1rem;
-
-}
-.weathersummary p{
-	font-size: 15px;
-}
-.name {
-    grid-column: 1;
-    line-height: 100%;
-    text-align:center;  
-}
-.temp {
-    grid-column: 2;
-    line-height: 100%;
-    margin-right: 100px;
-    text-align: center; 
-}
-.flex { 
-    display: flex;
-    flex-flow: row wrap;
-    margin: 50px;
-    border: 5px solid black;
-    padding-left: 150px;
-   
-    background-color: #153F65;
-    color: whitesmoke;
-}
- .flex-col {
-    border: 2px solid black;
-    text-align: center;
-}
- .flex-col:hover {
-    background-color:#00F57A;
-    color:#003E1F;
-    opacity: 0.75;
-    cursor: pointer;
-}
-.col-head {
-    display: flex;
-    padding: 10px;
-    text-align: center;
-    font-size: 1rem;
-    background-color: #003E1F;
-    color: #00F57A;;
-}
-.data {
-    display: flex;
-    padding: 0 10px 10px;
-    font-size: 2rem;
-    text-align: center;
-}
-.hot1, .hot2, .hot3, .hot4, .hot5 {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100px;
-    padding: 0.25rem;
-} */
 .article-container {
     
     margin: 10px auto;
@@ -248,50 +132,62 @@ nav ul {
     justify-content: space-between;
 }
 
-main figure.myphoto{
-    width:100%;
-    /*border: 1px red dashed;*/
-    float: left;
-}
-    main figure.myphoto img{ width:100%}
-    main figure.myphoto figcaption{ text-align: center; font-size: .75rem;}
-    
-
-main figure.myphoto1{
-    width:100%;
-    /*border: 1px red dashed;*/
-    float: left;
-    
-}
-main figure.myphoto1 img{ width:100%}
-main figure.myphoto1 figcaption{ text-align: center; font-size: .75rem;}
-
-main figure.myphoto2{
-    width:100%;
-    /*border: 1px red dashed;*/
-    float: right;
-    
-}
-main figure.myphoto2 img{ width:100%}
-main figure.myphoto2 figcaption{ text-align: center; font-size: .75rem;}
-
-main figure.myphoto3{
-    width:100%;
-    /*border: 1px red dashed;*/
-    float: left;
-    
-}
-main figure.myphoto3 img{ width:100%}
-main figure.myphoto3 figcaption{ text-align: center; font-size: .75rem;}
- *{
-    box-sizing: border-box;
-    padding: 0%;
-    line-height: 1.1em;
-}
-.contact{
-	background-color:#153F65; 
+.demo, .demo a {
+    color:#FFCF3D;
+    font-size: 20px;
 }
 
+
+h1 {
+    font-size: 2rem;
+    margin: auto;
+    color:#FFCF3D;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 4%;
+    text-align: center;
+    padding: 0.75rem 1rem;
+
+}
+main {
+    margin: 0.5em;
+    padding: 0.5rem;
+    background-color:#C3CAD0;
+}
+
+.imageContainer img{
+    border: #FFCF3D 2px solid;
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    max-width: 90%;
+    margin: 10px;
+    
+}
+.imagesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+}
+
+.article-container {
+    margin: 0 auto;
+    border: 5px solid #000;
+    background-color:#153F65;
+}
+.info{
+    color: #FFCF3D;
+    text-align: center;
+    padding: 0 0;
+}
+.main-heading{
+    color: #FFCF3D;
+    font-size: 20px;
+    font-family:'Barlow', sans-serif;;
+}
+  
 footer {
     background-color:#153F65;
     color:#FFCF3D;
@@ -300,9 +196,10 @@ footer {
     margin: 0.5rem;
     max-width: 100%;
 }
-.demo, .demo a {
-    color:#003E1F;
-    font-size: 20px;
+/*--------------------------------------last part*-------------------------------------------------*/
+
+
+.visit-container{
+    text-align: center;
+    padding: 10px 0 0 10px;
 }
-
-

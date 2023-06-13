@@ -43,16 +43,32 @@ main {
     max-width: 90%;
     margin: 10px;
     
-    }
-    .imagesContainer{
+}
+.imagesContainer{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100%;
 
-    }
+}
 
+.article-container {
+    margin: 0 auto;
+    border: 5px solid #000;
+    background-color:#153F65;
+}
+.info{
+    color: #FFCF3D;
+    text-align: center;
+    padding: 0 0;
+}
+.main-heading{
+    color: #FFCF3D;
+    font-size: 20px;
+    font-family:'Barlow', sans-serif;;
+}
+  
 footer {
     background-color:#153F65;
     color:#FFCF3D;
