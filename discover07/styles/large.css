@@ -30,4 +30,6 @@
         margin: 0 auto;
         max-width: 1050px;
     }
+    
+.imageContainer :hover {box-shadow: 0 0 50px #C3CAD0;}
 }
