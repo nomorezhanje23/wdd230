@@ -47,7 +47,7 @@ const userVisit  = document.querySelector(".user-visit"); //class of HTML
 let lastVisitTime = localStorage.getItem("visits-localstorage"); //LAST VISIT
 let currentTimestamp = Date.now(); //CURRENT DATE IN MILLISECONDS
 const msForDay = 86400000; //MILLISECONDS IN A DAY
-const lastVisitInDays = Math.round((currentTimestamp - lastVisitTime) / msForDay); //DIFERENCE IN DAYS
+const lastVisitInDays = Math.floor(currentTimestamp - lastVisitTime) / msForDay; //DIFERENCE IN DAYS
 
 localStorage.setItem("visits-localstorage", currentTimestamp); //UPDATE LAST VISIT
 
