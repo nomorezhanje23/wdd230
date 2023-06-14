@@ -35,12 +35,12 @@
     color:#003E1F;
     border: 3px solid #FFCF3D;
     font-weight: bolder;
+    padding: 1rem 0;
+    
   }
   
   header {
-    padding: 1.5rem 0;
-    margin-bottom: 4rem;
-    letter-spacing: 3px;
+    margin-bottom: 1rem;
   }
    
   .cards :hover {
@@ -68,6 +68,5 @@
     height: 50%;
   }
   footer {
-    padding: 1rem 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
