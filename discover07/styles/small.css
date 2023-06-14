@@ -132,11 +132,14 @@ nav ul {
     justify-content: space-between;
 }
 
-.demo, .demo a {
+.demo {
     color:#FFCF3D;
     font-size: 20px;
 }
-
+.demo a {
+    color:#C3CAD0;
+    font-size: 20px;
+}
 
 h1 {
     font-size: 2rem;
