@@ -1,3 +1,4 @@
+//start by the url of the JSON file
 const url ="https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json";
 
 //first part from the  text
@@ -41,7 +42,7 @@ const displayProphets = (prophets) => {
     card.classList.add("prophet-card");
     portrait.classList.add("prophet-img");
 
-    // Information to be displayed
+    // Information to be displayed after validating the conditions below
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
     daybirth.textContent = `Date of Birth: ${dateofbirth}`;
     birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
@@ -66,10 +67,10 @@ const displayProphets = (prophets) => {
     const nowT = new Date();
     let currentYear = nowT.getFullYear();
 
-    // The age of the thd Prophet
+    // The age of the the Prophet
     let currentAge = Number(currentYear) - Number(birthyear);
 
-    // Display the date of death and age for the deceased prophets
+    // Display the time of death and age for the deceased prophets
     if (deathYear.textContent !== `Time of Death: null`) {
       card.appendChild(deathYear);
       card.appendChild(age);
