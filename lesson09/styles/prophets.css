@@ -47,8 +47,8 @@
     box-shadow: 0 0 50px #C3CAD0;
   }
   .cards {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;    No need of this line of code since the display is now in grid form
+    flex-direction: column;*/
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -65,7 +65,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     max-width: 100%;
-    height: 50%;
+    max-height: 10%;
   }
   footer {
     padding: 1rem 0;
