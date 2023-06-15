@@ -36,11 +36,11 @@
     border: 3px solid #FFCF3D;
     font-weight: bolder;
     padding: 1rem 0;
-    
   }
   
   header {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    letter-spacing: 3px;
   }
    
   .cards :hover {
@@ -68,5 +68,29 @@
     height: 50%;
   }
   footer {
-    margin-top: 1rem;
+    padding: 1rem 0;
+    margin-top: 2rem;
   }
+
+ 
+@media only screen and (min-width: 32.5em) {
+  .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-right: 2rem;
+  }
+  
+  footer {
+      font-size: 1em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+  p {
+      font-size: 1rem;
+  }
+}

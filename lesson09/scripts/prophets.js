@@ -47,7 +47,7 @@ const displayProphets = (prophets) => {
     daybirth.textContent = `Date of Birth: ${dateofbirth}`;
     birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
     deathYear.textContent = `Time of Death: ${dateofdirth}`;
-    age.textContent = `Died at Age: ${prophetAge}`;
+    //age.textContent = `Died at Age: ${prophetAge}`;
 //-----------------------------------Notes from activity ---------------------------------
     // Build the image portrait by setting all the relevant attribute
 
