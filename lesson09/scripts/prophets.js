@@ -36,7 +36,7 @@ const displayProphets = (prophets) => {
     let deathyear = dateofdirth.slice(-4);
 
     // Getting the prophet's age; death/current year - birth year
-    let prophetAge = Number(deathyear) - Number(birthyear);
+   // let prophetAge = Number(deathyear) - Number(birthyear);
 
      //code to position the card and the potrait vertically
     card.classList.add("prophet-card");
