@@ -1,137 +1,77 @@
 
 {
-    "prophets": [
+    "companies": [
     {
-    "name": "Joseph",
-    "lastname": "Smith",
-    "birthdate": "23 December 1805",
-    "death": "27 June 1844",
-    "length": 14,
-    "order": 1,
-    "birthplace": "Vermont",
-    "numofchildren": 11,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+    "imageurl": "https://i.pinimg.com/280x280_RS/80/72/a2/8072a2bee7ab9b6fbd351ec163144ac4.jpg",
+    "companyname": "Sunshine Bakery",
+    "address": "567 Sunflower Street, Cape Town",
+    "phone": "+27 210 987 6543",
+    "website": "https://www.sunshinebakery.co.za",
+    "membership": "Gold Membership"
     },
     {
-    "name": "Brigham",
-    "lastname": "Young",
-    "birthdate": "01 June 1801",
-    "death": "29 August 1877",
-    "length": 30,
-    "order": 2,
-    "birthplace": "Vermont",
-    "numofchildren": 56,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+    "imageurl": "https://tse1.mm.bing.net/th?id=OIP.nnQozj51IZ7heEHDL7kzCAAAAA&pid=Api&P=0&h=180",
+    "companyname": "Cape Town Boutique Hotel",
+    "address": "789 Luxury Lane, Cape Town",
+    "phone": "+27 654 321 9870",
+    "website": "https://rougeonrose.co.za",
+    "membership": "Silver Membership"
     },
     {
-    "name": "John",
-    "lastname": "Taylor",
-    "birthdate": "01 November 1808",
-    "death": "25 July 1887",
-    "length": 6,
-    "order": 3,
-    "birthplace": "England",
-    "numofchildren": 34,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+    "imageurl": "https://www.famouslogos.org/wp-content/uploads/2012/02/abc-current-logo1-300x300.png",
+    "companyname": "ABC Electronics",
+    "address": "456 Oak Avenue, Cape Town",
+    "phone": "+27 987 654 3210",
+    "website": "https://www.abcelectronics.co.za",
+    "membership": "Bronze Membership"
     },
     {
-    "name": "Wilford",
-    "lastname": "Woodruff",
-    "birthdate": "01 March 1807",
-    "death": "02 September 1898",
-    "length": 9,
-    "order": 4,
-    "birthplace": "Connecticut",
-    "numofchildren": 34,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+    "imageurl": "https://tse3.mm.bing.net/th?id=OIP.iFhnzruQyPIaZYg7hKRzJAHaJD&pid=Api&P=0&h=180",
+    "companyname": "The Gourmet Kitchen",
+    "address": "45 Flavour Avenue, Milnerton",
+    "phone": "+27 321 654 0987",
+    "website": "https://thegourmetkitchen.co.za",
+    "membership": "Gold Membership"
     },
     {
-    "name": "Lorenzo",
-    "lastname": "Snow",
-    "birthdate": "03 April 1814",
-    "death": "19 October 1901",
-    "length": 3,
-    "order": 5,
-    "birthplace": "Ohio",
-    "numofchildren": 42,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+    "imageurl": "http://www.silwood.co.za/wp-content/uploads/2018/08/woolworths-logo-300x300_0-300x250.png",
+    "companyname": "Woolworths (Pty) Ltd - Montague Gardens",
+    "address": "Drill Ave &, Montague Drive, Montague Gardens",
+    "phone": "+27 21 524 6611",
+    "website": "https://www.woolworths.co.za/",
+    "membership": "Gold Membership"  
     },
     {
-    "name": "Joseph F.",
-    "lastname": "Smith",
-    "birthdate": "12 November 1838",
-    "death": "19 November 1918",
-    "length": 17,
-    "order": 6,
-    "birthplace": "Missouri",
-    "numofchildren": 48,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+    "imageurl": "https://peninsulagardens.co.nz/theme/Peninsula/images/logo.jpg",
+    "companyname": "Peninsula Landscaping CC",
+    "address": "Tokai, Cape Town, 7945",
+    "phone": "+27 21 715 7046",
+    "website": "https://www.penland.co.za",
+    "membership": "Siver Membership"
     },
     {
-    "name": "Heber J.",
-    "lastname": "Grant",
-    "birthdate": "22 November 1856",
-    "death": "14 May 1945",
-    "length": 23,
-    "order": 7,
-    "birthplace": "Utah",
-    "numofchildren": 12,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+    "imageurl": "https://sguru.org/wp-content/uploads/2018/02/amazon-logo-png-image-69429.png",
+    "companyname": "Amazon Cape Town",
+    "address": "Wembley Square 2, 134 Solan Rd, Gardens",
+    "phone": "+27 21 467 0101",
+    "website": "https://www.amazon.com",
+    "membership": "Gold Membership"  
     },
     {
-    "name": "George A.",
-    "lastname": "Smith",
-    "birthdate": "4 April 1870",
-    "death": "4 April 1951",
-    "length": 6,
-    "order": 8,
-    "birthplace": "Utah",
-    "numofchildren": 3,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+    "imageurl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/bd91dc845ad963fbc247a79f19f84b1f",
+    "companyname": "St Luke Hospice West Coast",
+    "address": "1 Hof Street,Table View, 7441",
+    "phone": "+27 21 715 7046",
+    "website": "https://stlukeshospice.co.za",
+    "membership": "Non-Profit"
     },
     {
-    "name": "David O.",
-    "lastname": "McKay",
-    "birthdate": "8 September 1873",
-    "death": "18 January 1970",
-    "length": 19,
-    "order": 9,
-    "birthplace": "Utah",
-    "numofchildren": 7,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
-    },
-    {
-    "name": "Joseph Fielding",
-    "lastname": "Smith",
-    "birthdate": "19 July 1876",
-    "death": "2 July 1972",
-    "length": 1,
-    "order": 10,
-    "birthplace": "Utah",
-    "numofchildren": 11,
-    "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
-    },
-    {
-    "name": "Harold B.",
-    "lastname": "Lee",
-    "birthdate": "28 March 1899",
-    "death": "26 December 1973",
-    "length": 1,
-    "order": 11,
-    "birthplace": "Idaho",
-    "numofchildren": 2,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
-    },
-    {
-    "name": "Spencer W.",
-    "lastname": "Kimball",
-    "birthdate": "28 March 1895",
-    "death": "5 November 1985",
-    "length": 12,
-    "order": 12,
-    "birthplace": "Utah",
-    "numofchildren": 4,
-    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/spencer-w-kimball-82918-gallery.jpg"
-    }
+    "imageurl": "http://www.celge.fr/wp-content/uploads/2016/08/teleperformance.jpg",
+    "companyname": "Teleperformance",
+    "address": "2 Grand Parade Centre, 11 Adderley Str",
+    "phone": "+27 21 408 0100",
+    "website": "https://www.teleperformance.com",
+    "membership": "Bronze Membership"  
+    }    
 ]
 }

@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#153F65;
+  }
+  h1 {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    background-color:#C3CAD0;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  body {
+    font-weight: 400;
+    font-size: 1rem;
+    color:#FFCF3D;
+    line-height: 1.6;
+    font-family: 'EB Garamond', serif;
+  }
+  
+  header,
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#C3CAD0;
+    color:#003E1F;
+    border: 3px solid #FFCF3D;
+    font-weight: bolder;
+    padding: 1rem 0;
+  }
+  
+  header {
+    margin-bottom: 2rem;
+    letter-spacing: 3px;
+  }
+   
+  .cards :hover {
+    box-shadow: 0 0 50px #C3CAD0;
+  }
+  .cards {
+    /*display: flex;    No need of this line of code since the display is now in grid form
+    flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .prophet-card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #FFCF3D;
+    border-radius: 4px; 
+  }
+  .prophet-img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    max-height: 10%;
+  }
+  footer {
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+
+ 
+@media only screen and (min-width: 32.5em) {
+  .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-right: 2rem;
+  }
+  
+  footer {
+      font-size: 1em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+  p {
+      font-size: 1rem;
+  }
+}
