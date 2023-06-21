@@ -43,8 +43,8 @@ const displayCompanies = (companies) => {
     portrait.setAttribute("loading", "lazy");
     website.setAttribute("href", `${company.website}`);
     website.setAttribute("target", "_blank");
-    portrait.setAttribute("width", "340");
-    portrait.setAttribute("height", "440");
+    //portrait.setAttribute("width", "340");
+    //portrait.setAttribute("height", "440");
 
     cards.appendChild(card);
     card.appendChild(h4);
