@@ -1,10 +1,10 @@
 main {
   margin: 0.5em;
   padding: 0.5rem;
-  background-color:#C3CAD0;
+  background-color:#153F65;
 }
   h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     margin: auto;
     color:#FFCF3D;
     font-family: 'Barlow', sans-serif;
@@ -120,7 +120,6 @@ nav ul {
     align-items: center;
     justify-content: center;
     background-color:#153F65;  
-    border: 3px solid #FFCF3D;
   }
   
   #banner {
@@ -158,9 +157,9 @@ header img {
     padding: 0.5rem;
     margin: 0;
 }
-  .cards :hover {
+ /* .cards :hover {
     box-shadow: 0 0 50px #C3CAD0;
-  }
+  }*/
   .cards {
     /*display: flex;    No need of this line of code since the display is now in grid form
     flex-direction: column;*/
@@ -186,6 +185,28 @@ header img {
     padding: 1rem 0;
     margin-top: 2rem;
   }
+
+  
+.visit-container{
+    text-align: center;
+    padding: 10px 0 0 10px;
+    background-color: #FFCF3D;
+    color:#153F65;
+}
+
+  
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #FFCF3D;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
 
  
 @media only screen and (min-width: 32.5em) {

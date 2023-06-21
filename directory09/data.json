@@ -2,7 +2,7 @@
 {
     "companies": [
     {
-    "imageurl": "https://i.pinimg.com/280x280_RS/80/72/a2/8072a2bee7ab9b6fbd351ec163144ac4.jpg",
+    "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg",
     "companyname": "Sunshine Bakery",
     "address": "567 Sunflower Street, Cape Town",
     "phone": "+27 210 987 6543",
@@ -11,7 +11,7 @@
     },
     {
     "imageurl": "https://tse1.mm.bing.net/th?id=OIP.nnQozj51IZ7heEHDL7kzCAAAAA&pid=Api&P=0&h=180",
-    "companyname": "Cape Town Boutique Hotel",
+    "companyname": "Cape Town Boutique",
     "address": "789 Luxury Lane, Cape Town",
     "phone": "+27 654 321 9870",
     "website": "https://rougeonrose.co.za",
@@ -35,8 +35,8 @@
     },
     {
     "imageurl": "http://www.silwood.co.za/wp-content/uploads/2018/08/woolworths-logo-300x300_0-300x250.png",
-    "companyname": "Woolworths (Pty) Ltd - Montague Gardens",
-    "address": "Drill Ave &, Montague Drive, Montague Gardens",
+    "companyname": "Woolworths",
+    "address": "Drill Ave &, Montague Drive",
     "phone": "+27 21 524 6611",
     "website": "https://www.woolworths.co.za/",
     "membership": "Gold Membership"  
@@ -52,15 +52,15 @@
     {
     "imageurl": "https://sguru.org/wp-content/uploads/2018/02/amazon-logo-png-image-69429.png",
     "companyname": "Amazon Cape Town",
-    "address": "Wembley Square 2, 134 Solan Rd, Gardens",
+    "address": "Wembley Square 2,Gardens",
     "phone": "+27 21 467 0101",
     "website": "https://www.amazon.com",
     "membership": "Gold Membership"  
     },
     {
     "imageurl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/bd91dc845ad963fbc247a79f19f84b1f",
-    "companyname": "St Luke Hospice West Coast",
-    "address": "1 Hof Street,Table View, 7441",
+    "companyname": "St Luke Hospice",
+    "address": "1 Hof Street,Table View",
     "phone": "+27 21 715 7046",
     "website": "https://stlukeshospice.co.za",
     "membership": "Non-Profit"
@@ -68,7 +68,7 @@
     {
     "imageurl": "http://www.celge.fr/wp-content/uploads/2016/08/teleperformance.jpg",
     "companyname": "Teleperformance",
-    "address": "2 Grand Parade Centre, 11 Adderley Str",
+    "address": "2 Grand Parade Centre",
     "phone": "+27 21 408 0100",
     "website": "https://www.teleperformance.com",
     "membership": "Bronze Membership"  
