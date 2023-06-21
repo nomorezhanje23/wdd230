@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lesson to introduce how to use design pattern of prgressive loading images or lazy loading of images">
+    <link rel="shortcut icon" href="portalicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&amp;family=Montez&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../lesson07/styles/lazyload.css">
+    <title>Lazy Loading Images</title>
+    <body>
+        <header>
+            <h1>Progressive Loading Images</h1>
+        </header>
+        <main>
+            <div class="imagesContainer">
+            <picture class="imageContainer"><img src="./images/placeholder_photo.webp" data-src="images/rockybeach_photo.webp" alt="Lazy1"></picture>
+            <picture class="imageContainer"><img src="./images/placeholder_photo.webp" data-src="./images/bokaap_photo.webp" alt="Lazy2"></picture>
+            <picture class="imageContainer"><img src="./images/placeholder_photo.webp" data-src="./images/countryside_photo.webp" alt="Lazy3"></picture>
+            <picture class="imageContainer"><img src="./images/placeholder_photo.webp" data-src="./images/date_photo.webp" alt="Lazy4"></picture>
+            <picture class="imageContainer"><img src="./images/placeholder_photo.webp" data-src="./images/games_photo.webp" alt="Lazy5"></picture>
+            <picture class="imageContainer"><img src="./images/placeholder_photo.webp" data-src="./images/walkinthepark_photo.webp" alt="Lazy6"></picture>
+            </div>
+          </main>
+        <footer id="myfooter">
+        </footer>
+        <script src="../lesson07/scripts/lazyload.js"></script>
+      </body>
+    </html>
+    
+    
+
+  
