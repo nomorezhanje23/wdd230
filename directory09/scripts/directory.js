@@ -1,5 +1,5 @@
 //start by the url of the JSON file
-const url ="https://nomorezhanje23.github.io/wdd230/directory09/data.json";
+const url ="data.json";
 
 async function getCompanyData(){
   const response = await fetch(url);
