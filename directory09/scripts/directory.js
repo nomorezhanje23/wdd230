@@ -1,6 +1,6 @@
 //start by the url of the JSON file
-const url ="data.json";
 
+const url ="https://nomorezhanje23.github.io/wdd230/directory09/data.json"
 async function getCompanyData(){
   const response = await fetch(url);
   const data = await response.json();
@@ -18,7 +18,7 @@ const displayCompanies = (companies) => {
     let card = document.createElement("section");
     let h4 = document.createElement("h4");
     //parts from my code
-    let portrait = document.createElement("ïmg");
+    let portrait = document.createElement("img");
     let companyname = document.createElement("text");
     let address = document.createElement("text");
     let phone = document.createElement("text");

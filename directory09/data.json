@@ -7,7 +7,7 @@
     "address": "567 Sunflower Street, Cape Town",
     "phone": "+27 210 987 6543",
     "website": "https://www.sunshinebakery.co.za",
-    "membership": "Gold Membership"
+    "membership": "***GOLD MEMBERSHIP***"
     },
     {
     "imageurl": "https://tse1.mm.bing.net/th?id=OIP.nnQozj51IZ7heEHDL7kzCAAAAA&pid=Api&P=0&h=180",
@@ -15,7 +15,7 @@
     "address": "789 Luxury Lane, Cape Town",
     "phone": "+27 654 321 9870",
     "website": "https://rougeonrose.co.za",
-    "membership": "Silver Membership"
+    "membership": "**SILVER MEMBERSHIP**"
     },
     {
     "imageurl": "https://www.famouslogos.org/wp-content/uploads/2012/02/abc-current-logo1-300x300.png",
@@ -23,7 +23,7 @@
     "address": "456 Oak Avenue, Cape Town",
     "phone": "+27 987 654 3210",
     "website": "https://www.abcelectronics.co.za",
-    "membership": "Bronze Membership"
+    "membership": "*BRONZE MEMBERSHIP*"
     },
     {
     "imageurl": "https://tse3.mm.bing.net/th?id=OIP.iFhnzruQyPIaZYg7hKRzJAHaJD&pid=Api&P=0&h=180",
@@ -31,7 +31,7 @@
     "address": "45 Flavour Avenue, Milnerton",
     "phone": "+27 321 654 0987",
     "website": "https://thegourmetkitchen.co.za",
-    "membership": "Gold Membership"
+    "membership": "***GOLD MEMBERSHIP***"
     },
     {
     "imageurl": "http://www.silwood.co.za/wp-content/uploads/2018/08/woolworths-logo-300x300_0-300x250.png",
@@ -39,7 +39,7 @@
     "address": "Drill Ave &, Montague Drive",
     "phone": "+27 21 524 6611",
     "website": "https://www.woolworths.co.za/",
-    "membership": "Gold Membership"  
+    "membership": "***GOLD MEMBERSHIP***"  
     },
     {
     "imageurl": "https://peninsulagardens.co.nz/theme/Peninsula/images/logo.jpg",
@@ -47,7 +47,7 @@
     "address": "Tokai, Cape Town, 7945",
     "phone": "+27 21 715 7046",
     "website": "https://www.penland.co.za",
-    "membership": "Siver Membership"
+    "membership": "**SILVER MEMBERSHIP**"
     },
     {
     "imageurl": "https://sguru.org/wp-content/uploads/2018/02/amazon-logo-png-image-69429.png",
@@ -55,7 +55,7 @@
     "address": "Wembley Square 2,Gardens",
     "phone": "+27 21 467 0101",
     "website": "https://www.amazon.com",
-    "membership": "Gold Membership"  
+    "membership": "***GOLD MEMBERSHIP***"  
     },
     {
     "imageurl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/bd91dc845ad963fbc247a79f19f84b1f",
@@ -63,7 +63,7 @@
     "address": "1 Hof Street,Table View",
     "phone": "+27 21 715 7046",
     "website": "https://stlukeshospice.co.za",
-    "membership": "Non-Profit"
+    "membership": "NON-PROFIT"
     },
     {
     "imageurl": "http://www.celge.fr/wp-content/uploads/2016/08/teleperformance.jpg",
@@ -71,7 +71,7 @@
     "address": "2 Grand Parade Centre",
     "phone": "+27 21 408 0100",
     "website": "https://www.teleperformance.com",
-    "membership": "Bronze Membership"  
+    "membership": "*BRONZE MEMBERSHIP*"  
     }    
 ]
 }
