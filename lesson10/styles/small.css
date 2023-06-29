@@ -1,71 +1,67 @@
-
-
-h1 {
-    font-size: 2rem;
-    margin: auto;
-    color:#FFCF3D;
-    font-family: 'Barlow', sans-serif;
-    margin-top: 4%;
-    text-align: center;
-    padding: 0.75rem 1rem;
-
-}
-
-h2, p {
-    
-    margin: auto;
-    color:#FFCF3D;
-    font-family: 'Barlow', sans-serif;
-    
-    text-align: center;
-    padding: 0.75rem 1rem;
-
-}
-main {
-    margin: 0.5em;
-    padding: 0.5rem;
-    background-color:#C3CAD0;
-}
-
-.imageContainer img{
-    border: #FFCF3D 2px solid;
-    object-fit: cover;
-    width: 300px;
-    height: 400px;
-    max-width: 90%;
-    margin: 10px;
-    
-}
-.imagesContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-
-}
-
-.article-container {
-    margin: 0 auto;
-    border: 5px solid #000;
-    background-color:#153F65;
-}
-.info{
-    color: #FFCF3D;
-    text-align: center;
-    padding: 0 0;
-}
-.main-heading{
-    color: #FFCF3D;
-    font-size: 20px;
-    font-family:'Barlow', sans-serif;;
-}
-  
-footer, header {
-    background-color:#153F65;
-    color:#FFCF3D;
-    padding: 1rem;
-    text-align:center;
-    margin: 0.5rem;
+body {
+    background-color: #61afc7;
     max-width: 100%;
-}
+    margin: 0 auto;
+    font-family: 'Barlow', sans-serif;
+    background-color:#153F65;
+   
+  }
+  .part {
+    max-width: 400px;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: #FFCF3D 2px solid;
+    background-color:#C3CAD0;
+    padding: 10px 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #003E1F;
+    background-color: #C3CAD0;
+    border: #FFCF3D 2px solid;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    text-shadow: 0 5px 8px rgba(2, 0, 2, 0.8);
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  .info{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 50px;
+  }
+  figcaption {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #003E1F;
+    background-color: #C3CAD0;
+    padding: 10px;
+    border: #FFCF3D 2px solid;
+    font-weight: bold;
+  }
+  
+
