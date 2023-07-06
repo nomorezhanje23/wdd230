@@ -2,25 +2,6 @@ function toggleMenu(){
     document.getElementById("menu").classList.toggle("primaryNav");
 }
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-// The code for the grid and list views
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
-
 let lastVisitTime = localStorage.getItem("visits-localstorage"); //LAST VISIT
 let currentTimestamp = Date.now(); //CURRENT DATE IN MILLISECONDS
 const msForDay = 86400000; //MILLISECONDS IN A DAY

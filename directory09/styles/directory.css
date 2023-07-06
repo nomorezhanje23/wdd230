@@ -166,6 +166,7 @@ header img {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    
   }
   .company-card {
     padding: 1.5rem;
@@ -179,7 +180,8 @@ header img {
   .company-img {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    height: 100px;
+    max-width: 100%;
+    max-height: 10%;
     
     
   }
@@ -200,7 +202,7 @@ header img {
 .menu {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
+	padding: 10px 5px;
 	background-color: #FFCF3D;
 	text-align: center;
 }
