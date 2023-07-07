@@ -41,12 +41,8 @@ fetch(url)
     grid.appendChild(membership);
 
     document.querySelector("article.grid").appendChild(grid);
-   
    }
-  
   });
-
-
 //responsive layouts
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
