@@ -21,48 +21,55 @@ main {
     border:#FFCF3D;
 
 }
-    aside {
-        margin: 0.5rem;
-        border: 1px solid #bbb;
-        padding: 0.75rem 1rem;
-        background-color: #FFCF3D;
-    }
+aside {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem 1rem;
+	background-color: #FFCF3D;
+}
 header {
-    text-align: center;
-    background-color:#153F65;
+    background-color: #153F65;
     font-family: 'Barlow', sans-serif;
     max-width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
     display: flex;
-    margin-top: 4%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
 header img {
-    width: 80px;
+    width: 10%;
     height: auto;
     padding: 0.5rem;
     margin: 0;
 }
-img {            
-	max-width: 65%;
+
+img {
+    max-width: 65%;
     height: auto;
     display: flex;
-    
-
 }
-.capetownmap{
-    max-width: 33%;
-    padding-left: 50px;
 
+.capetownmap {
     
-
+    height: auto;
+    padding: 0.5rem;
+    padding-top: 3rem;
+    max-width: 30%;
+    padding-left: 80px;  
 }
+
 h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     margin: auto;
-    color:#FFCF3D;
+    color: #FFCF3D;
     font-family: 'Barlow', sans-serif;
     margin-top: 4%;
+    text-align: center;
+}
+.motto {
+    font-size: 10pt;
+    color: #FFCF3D;
+    font-family: 'Barlow', sans-serif;
     text-align: center;
 }
 h2, h3 {
