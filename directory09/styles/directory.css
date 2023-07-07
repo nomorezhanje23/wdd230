@@ -170,8 +170,7 @@ header img {
     padding: 10px 0 0 10px;
     background-color: #FFCF3D;
     color:#153F65;
-    max-width: 80%;
-    margin-left: 10%;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
