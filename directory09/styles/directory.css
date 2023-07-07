@@ -13,7 +13,7 @@ main {
 }
 h2, h3 {
     font-family: 'Barlow', sans-serif;
-    color:#003E1F;
+    color:#FFCF3D;;
     text-align:center;
 }
 h4, h5 {
@@ -26,7 +26,8 @@ h2 {
 
 }
 h3 {
-    font-size: 2rem;
+    font-size: 1rem;
+    margin: 2px;
 }
 h4 {
     font-size: 1.5rem;
@@ -144,7 +145,6 @@ nav ul {
         color: #003E1F;
     }
 header {
-    text-align: center;
     background-color:#153F65;
     font-family: 'Barlow', sans-serif;
     max-width: 100%;
@@ -157,34 +157,8 @@ header img {
     padding: 0.5rem;
     margin: 0;
 }
- /* .cards :hover {
-    box-shadow: 0 0 50px #C3CAD0;
-  }*/
-  .cards {
-    /*display: flex;    No need of this line of code since the display is now in grid form
-    flex-direction: column;*/
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    
-  }
-  .company-card {
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid #FFCF3D;
-    border-radius: 4px; 
-    margin-bottom: 4px;
-  }
-  .company-img {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-width: 100%;
-    max-height: 10%;
-    
-    
-  }
+
+  
   footer {
     padding: 1rem 0;
     margin-top: 2rem;
@@ -196,6 +170,13 @@ header img {
     padding: 10px 0 0 10px;
     background-color: #FFCF3D;
     color:#153F65;
+    max-width: 80%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 
 }
 
@@ -211,26 +192,112 @@ header img {
 	padding: 1rem;
 	font-weight: 700;
 }
+/* detailed*/
 
+.directory{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem;
+    max-width: 80%;
+    background-color:#153F65;
+    
+    
+    }
+    
+    .menuDirectory {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #FFCF3D;
+    text-align: center;
+    }
+    
+    .menuDirectory button {
+    padding: 1rem;
+    font-weight: 700;
+    background-color:#003E1F;
+    color: #FFCF3D;
+    }
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+    
+    } 
+    .grid section {
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+    }
+    
+    .grid img {
+    border: 1px solid #003E1F;
+    box-shadow: 0 0 10px #FFCF3D;
+    }
+    
+    .grid section > * {
+    margin: 0.1rem;
+    }
+    
+    .grid h3 {
+        font-family: 'EB Garamond', serif;
+    }
+    
+    .list {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    
+    }
+    
+    .list section > * {
+    margin: 0 1rem;
+    }
+    
+    .list section img {
+    display: none;
+    }
+    
+    .list section h3 {
+    font-size: 1rem;
+    font-family: 'EB Garamond', serif;
+    }
+    
+    .list section:nth-child(even) {
+        border: 2px solid #FFCF3D;
+    border-radius: 4px; 
+
+    }
+    
+    section h3 {
+    font-size: 1.5rem;
+    }
+    
+    section p {
+    font-weight: 600;
+    font-size: smaller;
+    }
+    
+    section a {
+        font-family: 'EB Garamond', serif;
+    font-size: 0.85rem;
+    color: #FFCF3D;
+    letter-spacing: 1.1pt;
+    }
+    
+    img {
+    height: 75px;
+    max-width: 100%; 
+    }
+    
  
-@media only screen and (min-width: 32.5em) {
-  .cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      margin-right: 2rem;
-  }
-  
-  footer {
-      font-size: 1em;
-  }
-}
-@media only screen and (min-width: 60em) {
-  .cards {
-      grid-template-columns: 1fr 1fr 1fr;
-      margin-left: 1rem;
-      margin-right: 1rem;
-  }
-  p {
-      font-size: 1rem;
-  }
-}
