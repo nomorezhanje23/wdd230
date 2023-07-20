@@ -9,6 +9,8 @@ main {
     max-width: 100%;
     border-color: black;
     font-family: 'Caveat', cursive;
+    font-size: 20px;
+
 }
 
 
@@ -232,12 +234,12 @@ nav ul li a
 }
 
 .summary h1 {
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 5px;
 }
 
 .summary p {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .btn {
