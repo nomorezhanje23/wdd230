@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Final Website for WDD230">
-    <link rel="shortcut icon" href="favicon (1).ico">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="'https://fonts.googleapis.com/css2?family=Caveat&family=PT+Sans+Narrow&family=Sue+Ellen+Francisco&display=swap'" rel="stylesheet">
@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="../final_project/styles/medium.css">
     <link rel="stylesheet" href="../final_project/styles/large.css">
     <script src="../final_project/scripts/final.js"></script>
+    <script  src="../final_project/scripts/drinks.js"></script>
+    <script src="../final_project/scripts/fresh.js"></script>
     <title>Bountyful Foods</title>
   </head>
-  <body>
     <body>
       <header>
             <div class="logo">
-              <img src="https://images.vexels.com/media/users/3/136510/isolated/preview/828aeebb7005208887b020d837cc74bb-organics-fruits-logo.png" alt="Logo">
+              <img src="../final_project/images/logooo.webp" alt="Logo">
           </div>
           <div class="header-text">
               <h1>Bountiful Foods</h1>
@@ -33,18 +34,12 @@
         <nav>
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="menu" class="primaryNav">
-          <li class="active" ><a href="#">Home</a></li>
-          <li><a href="#">Fresh Page</a></li>
-          <li><a href="#">About Us</a></li>
+          <li class="active" ><a href="../final_project/final.html">Home</a></li>
+          <li><a href="../final_project/freshpage.html">Fresh Page</a></li>
+          <li><a href="../final_project/about.html">About Us</a></li>
         </ul>
       </nav> 
       <div class="hero">
-        <picture class="hero-picture">
-          <source srcset="images/discover_medium.webp"
-               media="(min-width:600px) and (max-width:1199px)">
-          <source srcset="images/discover_small.webp"
-                media="(min-width:0px) and (max-width:600px) ">
-          <img class="hero-img" src="images/discover_large.webp" alt="Cape Town Demographics">
     </div>
       <section class="summary">
       <h1>Carlsbad, California: A Coastal Paradise</h1>
@@ -63,11 +58,13 @@
           <div class="response">
       <h1>Be your own Chef</h1>
             <p>"Organic Goodness in Every Drop: <br> Fruit Juices for a Healthier You!"</p>
-            
-            <!--display code here-->
+            <div class="specialty-drinks-count">
+              Number of Specialty Drinks Submitted: 0
+            </div> 
+          
         </div>
-        <a href="#" class="btn1">Try Now</a>
-        </div>
+        <a href="../final_project/freshpage.html" class="btn1">Try Now</a>
+
       </section> 
       <section class="weather">
            <h2>Carlsbad Weather</h2>

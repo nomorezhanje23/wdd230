@@ -21,7 +21,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${countryCode}&
         const temperature = data.main.temp;
         const humidity = data.main.humidity;
         const description = data.weather[0].description;
-        //const weatherIcon = data.weather[0].icon;
+        
 
         temperatureElement.textContent = temperature + '°C';
         humidityElement.textContent = humidity + '%';
@@ -49,23 +49,11 @@ fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city},${countryCode}
     })
     .catch(error => console.log('Error fetching forecast:', error));
 
-// Function to update the specialty drinks count from the local storage
-function updateSpecialtyDrinksCount() {
-  const specialtyDrinksCount = localStorage.getItem('specialtyDrinksCount') || 0;
-  const specialtyDrinksCountElement = document.querySelector('.specialty-drinks-count');
-  specialtyDrinksCountElement.textContent = `Number of Specialty Drinks Submitted: ${specialtyDrinksCount}`;
-}
-
-// Call the functions to update the page on load
-window.addEventListener('DOMContentLoaded', () => {
-  updateWeatherCard();
-  updateSpecialtyDrinksCount();
-});
 // Footer 
 
 window.addEventListener('DOMContentLoaded', function() {
     var lastModified = document.lastModified;
     var lastModifiedElement = document.getElementById('lastModified');
-    lastModifiedElement.textContent = 'Last modified: ' + lastModified + ' .:| Bountiful Foods .:|:. Nomore T. Zhanje |:. WDD230 ' ;
+    lastModifiedElement.textContent = 'Last modified: ' + lastModified + ' .:|:. Bountiful Foods .:|:. Nomore T. Zhanje |:. WDD230 ' ;
 });
 
